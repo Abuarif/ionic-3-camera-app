@@ -8,25 +8,14 @@ Created by: Pinetop Technology
 
 In order to run this, following steps are required.
 
+Run 'npm install'
+
 Run 'ionic serve'
 
-It will prompt you to install @ionic/cli-plugin-ionic-angular, 
+It will launch a browser for you, however this thing is only work in the phone.
+So it is required to link it to the Ionic View.
 
+If you have linked your Ionic to Ionic View, just run 'ionic upload' else you need to login and link to the Ionic View account by 'ionic login' and 'ionic link'.
 
-
-We’ll start by creating an app with the blank template using ionic start.
-
-ionic start cameraApp blank --v2 
-
-If you have not yet installed Cordova, you’ll need to do that before completing this tutorial. This may require adding sudo before the command.
-
-npm install -g cordova
-
-After changing into our app directory (cd cameraApp), you’ll want to add a platform for your app.
-
-ionic cordova platform add android
-
-ionic cordova plugin add cordova-plugin-camera
-
-
+Please share with us if you encounter any problem.
 
